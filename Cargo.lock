@@ -75,21 +75,21 @@ dependencies = [
 
 [[package]]
 name = "fforget"
-version = "0.0.1"
-dependencies = [
- "anyhow",
- "clap",
- "fforget 0.0.2",
-]
-
-[[package]]
-name = "fforget"
 version = "0.0.2"
 source = "git+https://github.com/ckatsak/fforget-rs#01364010fe6c2b65da65798e9d61833b7a176894"
 dependencies = [
  "bitvec",
  "libc",
  "thiserror",
+]
+
+[[package]]
+name = "fforget"
+version = "0.0.3"
+dependencies = [
+ "anyhow",
+ "clap",
+ "fforget 0.0.2",
 ]
 
 [[package]]
